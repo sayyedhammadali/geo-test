@@ -1,0 +1,12 @@
+#map-view {
+  height: inherit;
+
+  .leaflet-container {
+    height: inherit;
+
+    .leaflet-div-icon {
+      background: transparent;
+      border: none;
+    }
+  }
+}
