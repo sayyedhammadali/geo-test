@@ -52,7 +52,6 @@ class App extends Component {
               <Route exact path="/club/:_id" component={ClubPage}/>
               <PrivateRoute exact path="/dashboard" component={Dashboard}/>
               <PrivateRoute exact path="/add/club" component={AddClub}/>
-              <Route exact component={PageNotFound}/>
             </Switch>
           </div>
         </Router>
